@@ -1,18 +1,77 @@
 * {
-    /*background-color: #E9F0E0;*/
-    background-color: 
-    #EDF3E6
-    ;
+    background-color: #EDF3E6;
 }
 
-p, h1, h2, h3, h4 {
-   /* color: #545454; */
-   color: 
-   
-#3E464C
-    
-   ;
+p, h1, h2, h3, h4 , a{
+    color:#3E464C;
     font-family: "Source Sans 3", sans-serif;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: -5px;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#logo {
+    float: left;
+    padding-left: 10px;
+    height:50px;
+    width: 50px;
+}
+
+.nav {
+    float: right;
+    padding-right: 20px;
+    list-style: none;
+}
+
+.nav-items {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#about {
+    padding-top: 20px;
+    padding-bottom: 150px;
+    padding-left: 10px;
+}
+
+#sanjeevan {
+    float: right;
+    height: 520px;
+    width: 500px;
+    padding-top: 15px;
+    background-color: #EDF3E6;
+    filter: opacity(90%);
+}
+
+#introduction {
+    padding-top: 150px;
+}
+
+#links_button {
+    padding-top: 190px;
+}
+
+#links_button ul {
+    padding-left: 650px;
+    list-style: none;
+}
+
+#links_button button {
+    padding:0;
+    margin:0;
+    border: none;
+}
+
+#links_button button img {
+    width: 40px;
+    height: 40px;
 }
 
 footer {
