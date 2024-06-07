@@ -73,8 +73,24 @@ header {
     height: 40px;
 }
 
+#hobbies {
+    padding-left: 10px;
+    text-align: center;
+}
 
+.hobby_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hobby_item {
+    height: 500px;
+    width: 32%;
+    padding-right: 10px;
+}
 
 footer {
-    background-color: #4F6D2B;
+    padding: 10px;
+
 }
