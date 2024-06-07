@@ -55,17 +55,16 @@ header {
 }
 
 #links_button {
-    padding-top: 190px;
+    padding-top: 150px;
+    list-style: none;
 }
 
-#links_button ul {
-    padding-left: 650px;
+#links_button li {
+    display: inline-block;
     list-style: none;
 }
 
 #links_button button {
-    padding:0;
-    margin:0;
     border: none;
 }
 
@@ -73,6 +72,8 @@ header {
     width: 40px;
     height: 40px;
 }
+
+
 
 footer {
     background-color: #4F6D2B;
