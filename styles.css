@@ -1,12 +1,28 @@
+@font-face {
+    font-family: more-sugar-regular;
+    src: url(/fonts/more-sugar.regular.ttf);
+}
+
+@font-face {
+    font-family: more-sugar-thin;
+    src: url(/fonts/more-sugar.thin.ttf);
+}
+
+
 * {
-    background-color: #EDF3E6;
+    background-color: #FFF;
     margin: 0;
     padding: 0;
 }
 
-p, h1, h2, h3, h4 , a{
+h1, h2, h3, h4 , a{
     color:#3E464C;
-    font-family: "Source Sans 3", sans-serif;
+    font-family: "more-sugar-regular", sans-serif;
+}
+
+p {
+    color:#3E464C;
+    font-family: "more-sugar-thin", sans-serif;
 }
 
 header {
@@ -29,12 +45,19 @@ header {
     float: right;
     padding-right: 20px;
     list-style: none;
+    font-size: 18px;
 }
 
 .nav-items {
     display: inline-block;
-    padding-top: 10px;
+    padding-top: 12px;
     margin-right: 10px;
+    text-decoration: none;
+}
+
+#dark_mode_button {
+    height: 50px;
+    width: 50px;
 }
 
 #about {
@@ -102,18 +125,6 @@ header {
 .hobby_image {
     height: 250px;
     width: 375px;
-}
-
-#notion {
-    text-align: center; 
-    padding-bottom: 30px;
-}
-
-#notion-img {
-    padding-top: 20px;
-    padding-bottom: 10px;
-    height: 400px;
-    width: 700px;
 }
 
 #project h1 {
