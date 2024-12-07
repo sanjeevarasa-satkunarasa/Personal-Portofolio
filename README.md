@@ -32,3 +32,30 @@ How to Use Them
     Body Content: Gray text on light green or gray backgrounds; use Lato.
     Buttons: Dark green background, white text; bold font.
     Footer: Dark charcoal background, light gray or green text.
+
+
+
+
+
+    portfolio/
+├── index.html          # Homepage
+├── about.html          # About Me page
+├── projects.html       # Projects portfolio
+├── certificates.html   # Certifications and CV
+├── contact.html        # Contact page
+├── assets/
+│   ├── css/
+│   │   └── styles.css  # Main stylesheet
+│   ├── js/
+│   │   └── scripts.js  # JavaScript for interactivity
+│   ├── images/
+│   │   ├── profile.jpg # Profile picture
+│   │   ├── project1.png
+│   │   └── ...         # Other images
+│   ├── icons/
+│   │   └── favicon.ico # Personal brand icon
+│   └── fonts/
+│       └── ...         # Custom fonts if needed
+├── assets/data/
+│   └── projects.json   # Optional: JSON for project info
+└── README.md           # Project documentation

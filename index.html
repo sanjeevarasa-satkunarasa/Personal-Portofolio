@@ -1,38 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sanjeevan</title>
     <link rel="icon" type="image/x-icon" href="media/logo.png">
-    <link rel="stylesheet" href="styles.css" id="theme-style">
+    <link rel="stylesheet" href="/style/style.css" id="theme-style">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
-<header>
-    <img src="media/logo.png" id="logo">
-    <ul class="nav">
-        <li class="nav-items"><a href="#about">About</a></li>
-        <li class="nav-items"><a href="#hobbies">Hobbies</a></li>
-        <li class="nav-items"><a href="#notion">Notion</a></li>
-        <li class="nav-items"><a href="#project">Projects</a></li>
+<nav>
+    <h1>Sanjeevan.</h1>
+    <ul>
+        <li>About</li>
+        <li>Projects</li>
+        <li>Contact</li>
     </ul>
-</header>
+    <button onclick="darkMode()" async><img src="media/dark_mode.svg"></button>
+</nav>
+
 <body>
-    <!--Add vw for about me seciton-->
-    <div id="about">
-        <br></br>
-        <img id="sanjeevan" src="media/sanjeevan.png">
-        <div id="introduction">
-            <h2 id="welcome">Hi, I'm Sanjeevan 👋</h2>
-            <h1>Self-taught Programmer/Student based in Oslo</h1>
-        </div>
-        <ul id="links_button">
-            <li><button onclick="darkMode()" async><img src="media/dark_mode.png"></button></li> <!--Switch to dark mode-->
-            <li><a href="https://github.com/sanjeevarasa-satkunarasa" target="_blank">GitHub</a></li>
-        </ul>
+    <div class="card1">
+        <h1>Hi, I'm Sanjeevan 👋</h1>
+        <h2 id="card1_info">Self-taught Programmer/Student based in Oslo</h2>
     </div>
     <div id="hobbies">
         <h1>What I get up to in my spare time?</h1>
@@ -44,7 +40,8 @@
             </div>
             <div class="hobby_item">
                 <h2>Programming</h2>
-                <p>Self-taught programmer 🤓 in HTML, JS, CSS and Python and I continue to learn and program to this date.</p>
+                <p>Self-taught programmer 🤓 in HTML, JS, CSS and Python and I continue to learn and program to this
+                    date.</p>
                 <img class="hobby_image" src="media/coding.png"> <!--Image of me programming-->
             </div>
             <div class="hobby_item">
@@ -59,7 +56,9 @@
         <div class="project_container">
             <div class="project_item">
                 <h2>Realfag.net</h2>
-                <p>Working as a developer/writer at Realfag.net with various tasks ranging from programming an OCR Past Paper Comparision tool to writing information on how to navigate through the Norwegian school system.</p>
+                <p>Working as a developer/writer at Realfag.net with various tasks ranging from programming an OCR Past
+                    Paper Comparision tool to writing information on how to navigate through the Norwegian school
+                    system.</p>
                 <img src="_blank">
             </div>
         </div>
@@ -67,16 +66,17 @@
 </body>
 <footer>
     <p id="copyright">© Sanjeevarasa Satkunarasa 2024. All Rights Reserved</p>
-    <p id="contact">Email: <a href="mailto:ssanjeevarasa@gmail.com">ssanjeevarasa@gmail.com</a></p>
+    <p id="contact"></p>
 </footer>
-<script src="/script/script.js"></script> 
+<script src="/script/script.js"></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-P6M5DSWJV7"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-P6M5DSWJV7');
+    gtag('config', 'G-P6M5DSWJV7');
 </script>
+
 </html>
