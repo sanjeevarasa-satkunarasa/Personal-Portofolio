@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sanjeevan</title>
     <meta name="keywords" content="Sanjeevarasa, Satkunarasa, Sanjeevarasa Satkunarasa, Sanjeevan">
-    <meta name="description" content="Sanjeevan's Personal Portofolio. Consisting of projects and contact details.">
+    <meta name="description" content="Sanjeevan's Personal Portfolio. Consisting of projects and contact details.">
     <meta name="author" content="Sanjeevarasa Satkunarasa">
     <link rel="icon" type="image/x-icon" href="media/potted_plant.svg">
-    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/style.css" id="theme-style">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,58 +18,62 @@
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 </head>
-<nav>
-    <h1>Sanjeevan.</h1>
-    <ul>
-        <li><a href="/html/about.html">About</a></li>
-        <li><a href="/html/project.html">Projects</a></li>
-        <li><a href="/html/contact.html">Contact</a></li>
-    </ul>
-    <button onclick="darkMode()" async><img src="media/dark_mode.svg"></button>
-</nav>
 
 <body>
+    <nav>
+        <h1>Sanjeevan.</h1>
+        <ul>
+            <li><a href="/html/about.html">About</a></li>
+            <li><a href="/html/project.html">Projects</a></li>
+            <li><a href="/html/contact.html">Contact</a></li>
+        </ul>
+        <button onclick="darkMode()"><img src="media/dark_mode.svg" alt="Toggle Dark Mode"></button>
+    </nav>
+
     <div class="card1">
         <div>
             <h1>Hi, I'm Sanjeevan 👋</h1>
             <h2 id="card1_info">Self-taught Programmer/Student based in Oslo</h2>
         </div>
-        <img src="/media/mohammad-rahmani-oXlXu2qukGE-unsplash.jpg">
+        <img src="/media/mohammad-rahmani-oXlXu2qukGE-unsplash.jpg" alt="Image of Sanjeevan">
     </div>
+
     <div class="card2">
         <h1>Recent Projects</h1>
         <div class="project_container">
             <div class="project_item">
                 <h2>Realfag.net</h2>
                 <p>Working as a developer/writer at Realfag.net with various tasks ranging from programming an OCR Past
-                    Paper Comparision tool to writing information on how to navigate through the Norwegian school
+                    Paper Comparison tool to writing information on how to navigate through the Norwegian school
                     system.</p>
-                <a href="www.realfag.net" target="_blank">Go to Realfag.net</a>
+                <a href="https://www.realfag.net" target="_blank" rel="noopener noreferrer">Go to Realfag.net</a>
             </div>
         </div>
+
         <div class="project_container">
             <div class="project_item">
                 <h2>Momentum</h2>
-                <p>Habit tracker that help you learn new habits. Uses flexbox and local storage to save habits. Created
-                    with accesibility in mind. Fully created and deployed by Sanjeevan</p>
+                <p>Habit tracker that helps you learn new habits. Uses flexbox and local storage to save habits. Created
+                    with accessibility in mind. Fully created and deployed by Sanjeevan</p>
                 <a href="/projects/Momentum/index.html" target="_blank">Go to Momentum</a>
             </div>
         </div>
     </div>
-</body>
-<footer>
-    <p>© Sanjeevarasa Satkunarasa 2024</p>
-    <p>All Rights Reserved</p>
-</footer>
-<script src="/script/script.js"></script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-P6M5DSWJV7"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
 
-    gtag('config', 'G-P6M5DSWJV7');
-</script>
+    <footer>
+        <p>© Sanjeevarasa Satkunarasa 2024</p>
+        <p>All Rights Reserved</p>
+    </footer>
+
+    <script src="/script/script.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P6M5DSWJV7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-P6M5DSWJV7');
+    </script>
+</body>
 
 </html>
