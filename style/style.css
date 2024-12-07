@@ -8,17 +8,27 @@ body {
     padding: 0;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     color: #333533;
     font-family: "Montserrat", sans-serif;
 }
 
-p,  a {
-    color:#212121 ;
+p, a {
+    color: #212121;
     font-family: "Lato", sans-serif;
 }
 
+a {
+    color: #2E4F3E;
+    text-decoration: underline;
+}
+
 nav {
+    position: fixed;
+    z-index: 20;
     width: 100%;
     height: 20vh;
     padding: 0 3vw;
@@ -39,11 +49,12 @@ nav ul {
     list-style: none;
 }
 
-nav ul li {
-    padding-right:5vw;
-    color:  #FFFFFF ;
+nav ul li a {
+    padding-right: 5vw;
+    color: #FFFFFF;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
+    text-decoration: none;
 }
 
 nav button {
@@ -59,14 +70,14 @@ nav button img {
 }
 
 .card1 {
+    padding-top: 20vh;
     background-color: #333533;
     color: #D3D6D2;
     padding-left: 2vw;
-    height: 80vh;
+    height: 100vh;
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .card1 h1 {
@@ -77,8 +88,31 @@ nav button img {
     color: #D3D6D2;
 }
 
+.card1 img {
+    height: 80vh;
+    width: 50vw;
+}
+.card2 {
+    padding: 5vh;
+}
+.card2 h1 {
+    text-align: center;
+}
+
+.card2 h2,p {
+    color:#FFFFFF;
+}
 
 
+.card2 a {
+    color: #D3D6D2;
+}
+.project_item {
+    background-color: #474b47;
+    border-radius: 3vh;
+    padding: 5vh;
+    margin-bottom: 3vh;
+}
 footer {
     background-color: #333533;
     height: 15vh;
