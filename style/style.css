@@ -16,7 +16,8 @@ h4 {
     font-family: "Montserrat", sans-serif;
 }
 
-p, a {
+p,
+a {
     color: #212121;
     font-family: "Lato", sans-serif;
 }
@@ -92,27 +93,52 @@ nav button img {
     height: 80vh;
     width: 50vw;
 }
+
 .card2 {
     padding: 5vh;
 }
+
 .card2 h1 {
     text-align: center;
 }
 
-.card2 h2,p {
-    color:#FFFFFF;
+.card2 h2,
+p {
+    color: #FFFFFF;
 }
 
 
 .card2 a {
     color: #D3D6D2;
 }
+
 .project_item {
     background-color: #474b47;
     border-radius: 3vh;
     padding: 5vh;
     margin-bottom: 3vh;
 }
+
+#project-div {
+    padding-top: 20vh;
+}
+
+.contact {
+    background-color: #333533;
+    color: #D3D6D2;
+    padding-top: 25vh;
+    padding-bottom: 5vh;
+    padding-left: 2vw;
+}
+
+.contact h1 {
+    color: #D3D6D2;
+}
+
+.contact h3 {
+    color: #D3D6D2;
+}
+
 footer {
     background-color: #333533;
     height: 15vh;
