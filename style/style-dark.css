@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #121212;
+    background-color: #121212; /* Darker background for dark mode */
     margin: 0;
     padding: 0;
 }
@@ -12,17 +12,18 @@ h1,
 h2,
 h3,
 h4 {
-    color: #E0E0E0;
+    color: #FFFFFF; /* Light text color for better contrast */
     font-family: "Montserrat", sans-serif;
 }
 
-p, a {
-    color: #B0B0B0;
+p,
+a {
+    color: #E0E0E0; /* Softer light color for readability */
     font-family: "Lato", sans-serif;
 }
 
 a {
-    color: #82B1FF;
+    color: #80CBC4; /* Slightly brighter color for links */
     text-decoration: underline;
 }
 
@@ -32,14 +33,16 @@ nav {
     width: 100%;
     height: 20vh;
     padding: 0 3vw;
-    background-color: #263238;
+    background-color: #1F2933; /* Slightly lighter dark for the nav bar */
     color: #FFFFFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-nav h1 {
+nav h1 a {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
     color: #FFFFFF;
 }
 
@@ -60,7 +63,7 @@ nav ul li a {
 nav button {
     height: 4vw;
     width: 4vw;
-    background-color: #263238;
+    background-color: #1F2933;
     border: none;
 }
 
@@ -71,7 +74,7 @@ nav button img {
 
 .card1 {
     padding-top: 20vh;
-    background-color: #212121;
+    background-color: #1E1E1E; /* Dark card background */
     color: #E0E0E0;
     padding-left: 2vw;
     height: 100vh;
@@ -101,23 +104,70 @@ nav button img {
     text-align: center;
 }
 
-.card2 h2, p {
+.card2 h2,
+p {
     color: #E0E0E0;
 }
 
 .card2 a {
-    color: #82B1FF;
+    color: #80CBC4;
 }
 
 .project_item {
-    background-color: #37474F;
+    background-color: #2D2D2D; /* Slightly lighter dark for contrast */
     border-radius: 3vh;
     padding: 5vh;
     margin-bottom: 3vh;
 }
 
+#project-div {
+    padding-top: 23vh;
+}
+
+.card4 {
+    padding-top: 22vh;
+    padding-bottom: 5vh;
+    padding-left: 3vw;
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+}
+
+.card4 h1 {
+    color: #E0E0E0;
+}
+
+.card4 h2 {
+    color: #E0E0E0;
+}
+
+.card4 ul li {
+    font-family: "Lato", sans-serif;
+    font-size: 3vh;
+}
+
+.card4 h2 a {
+    font-size: 16px;
+    color: #80CBC4;
+}
+
+.contact {
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+    padding-top: 25vh;
+    padding-bottom: 5vh;
+    padding-left: 2vw;
+}
+
+.contact h1 {
+    color: #E0E0E0;
+}
+
+.contact h3 {
+    color: #E0E0E0;
+}
+
 footer {
-    background-color: #212121;
+    background-color: #1F2933;
     height: 15vh;
     display: flex;
     justify-content: space-between;
