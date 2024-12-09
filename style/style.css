@@ -40,7 +40,9 @@ nav {
     align-items: center;
 }
 
-nav h1 {
+nav h1 a {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
     color: #FFFFFF;
 }
 
@@ -121,6 +123,31 @@ p {
 
 #project-div {
     padding-top: 23vh;
+}
+
+.card4 {
+    padding-top: 22vh;
+    padding-bottom: 5vh;
+    padding-left: 3vw;
+    background-color: #333533;
+    color: #D3D6D2;
+}
+
+.card4 h1 {
+    color: #D3D6D2;
+}
+
+.card4 h2 {
+    color: #D3D6D2;
+}
+
+.card4 ul li {
+    font-family: "Lato", sans-serif;
+    font-size: 3vh;
+}
+
+.card4 h2 a {
+    font-size: 16px;
 }
 
 .contact {
